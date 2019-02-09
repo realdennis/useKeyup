@@ -29,7 +29,7 @@ const demo = () => {
   const [key, setKey] = useState([]);
   const [cleanUp] = useKeyup(e => setKey(e.code));
   useEffect(() => {
-    setTimeout(cleanup, 3000);
+    setTimeout(cleanUp, 3000);
     // Set timer when mounted & after 3sec clean keyup
   }, []);
   return <p>keyup {key}</p>;

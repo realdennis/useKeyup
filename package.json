@@ -1,6 +1,6 @@
 {
   "name": "use-keyup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React hook for window keyup using use-event-target.",
   "main": "./src/index.js",
   "keywords": [
