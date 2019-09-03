@@ -42,8 +42,8 @@ Call clean-up function (to `removeEventListener`) when component has been unmoun
 
 Also, I export a `cleanUp` function, you can use this to explicity remove events when you need.
 
-## Why This has a dependency of `useEventTarget`
+## Why This has a dependency of `createEventTargetHook`
 
 This is a hooks infrastructure for easily package a event hooks.
 
-See more [useEventTarget](https://github.com/realdennis/useEventTarget/).
+See more [createEventTargetHook](https://github.com/realdennis/createEventTargetHook/).
